@@ -1,10 +1,10 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    font: 32px "Century Gothic", Futura, sans-serif;
+    margin: 40px;
   }
   
   ol, ul {
-    padding-left: 30px;
+    padding-left: 40px;
   }
   
   .board-row:after {
@@ -18,18 +18,18 @@ body {
   }
   
   .square {
-    background: #fff;
-    border: 1px solid #999;
+    background: #D28776;
+    border: 3px solid rgb(3, 3, 3);
     float: left;
-    font-size: 24px;
+    font-size: 80px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 150px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 150px;
   }
   
   .square:focus {
@@ -46,6 +46,12 @@ body {
   }
   
   .game-info {
-    margin-left: 20px;
+    margin-left: 50px;
   }
   
+  #jumpButton {
+      color:rgb(2, 11, 14);
+      background-color: rgb(238, 231, 231);
+      font-weight: bold;
+      font-size: 20px;
+  }
